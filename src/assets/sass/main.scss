@@ -1,0 +1,16 @@
+@import "lib/custom";
+@import "~bootstrap/scss/bootstrap";
+
+
+@import 'global/fonts';
+@import 'global/vars';
+@import 'global/default';
+@import 'global/utils';
+
+
+@import 'shared/header';
+@import 'shared/preloader';
+
+@import 'modules/home';
+
+
