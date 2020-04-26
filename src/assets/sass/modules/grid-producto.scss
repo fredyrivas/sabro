@@ -1,0 +1,73 @@
+.producto_grid {
+    .product_container {
+        display: flex;
+        height: 280px;
+        margin-bottom: 80px;
+    }
+    .left_prod {
+        width: 55%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .product_image {
+            width: 60%;
+            transform: translate(10px, 0);
+        }
+        .receta_disponible{
+            img{
+                width: 40%;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+        }
+    }
+    .right_prod {
+        width: 45%;
+        .product_name {
+            font-size: 1.6em;
+        }
+        .spec_name {
+            font-size: 0.8em;
+            display: block;
+            font-weight: 600;
+            margin-bottom: 7px;
+        }
+        .spec_content {
+            font-size: 0.8em;
+            border-bottom: 1px solid black;
+            margin-bottom: 7px;
+        }
+        .spec_cta {
+            background-color: $orange-color;
+            padding: 8px 10px;
+            border-radius: 40px;
+            color: white;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.7em;
+            top: 20px;
+            position: relative;
+        }
+        .spec_select {
+            border: none;
+            outline: none;
+            display: inline-block;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            border-bottom: 1px solid black;
+            margin-bottom: 7px;
+            width: 100%;
+            background-color: transparent;
+            border-radius: 0;
+            background-image: url("assets/img/drop-icon.svg");
+            background-repeat: no-repeat;
+            background-position: center right;
+            background-size: 4%;
+        }
+    }
+}

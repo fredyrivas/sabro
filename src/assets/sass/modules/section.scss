@@ -1,0 +1,42 @@
+.container-fluid {
+    background-color: white;
+    position: relative;
+    z-index: 100;
+}
+
+
+.title_sabro.t_bigger{
+    h2 {
+        font-size: 3.6em;
+    }
+}
+
+.title_sabro {
+    position: relative;
+    display: inline-block;
+
+    h2 {
+        font-family: "Blog";
+        font-size: 2.7em;
+        text-transform: capitalize;
+        position: relative;
+    }
+    .menu_selected {
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 75%;
+    }
+    .salpicon {
+        position: absolute;
+        top: 12px;
+        right: -20%;
+        width: 38px;
+    }
+}
+p.paragraph_sabro {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+}

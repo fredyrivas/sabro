@@ -1,39 +1,28 @@
 window.$ = window.jQuery = require("jquery");
-import { TweenMax } from "gsap";
+
+import Slideshow from './modules/Slideshow.js'
+import Ondita from './modules/Ondita.js'
+import Menuselect from './modules/Menuselect.js'
 
 
-import Preloader from './modules/Preloader.js'
 
+const APP = window.APP || {}
 
+const initApp = () => {
+    window.APP = APP
 
+    let isMobileDevice = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 
-class App {
-    constructor() {
+    APP.isMobileDevice = isMobileDevice
 
-        
-
-        this.preloader = new Preloader()
-
-        this.isMobileDevice = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-
-
-        this.init()
-    }
-
-
-    addEvents() {
-
-    }
-
-
-    init() {
-        this.preloader.onPreloadComplete({
-            callback: () => {
-                console.log('site loaded');
-                this.addEvents()
-            }
-        })
-    }
+    APP.Slideshow = new Slideshow()
+    APP.Ondita = new Ondita()
+    APP.Menuselect = new Menuselect()
 }
 
-const app = new App()
+
+if (document.readyState === 'complete' || (document.readyState !== 'loading' && !document.documentElement.doScroll)) {
+    initApp()
+} else {
+    document.addEventListener('DOMContentLoaded', initApp)
+}

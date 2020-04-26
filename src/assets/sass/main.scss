@@ -1,6 +1,19 @@
-@import "lib/custom";
-@import "~bootstrap/scss/bootstrap";
+// @import "lib/custom";
+// @import "~bootstrap/scss/bootstrap";
 
+
+@import "lib/custom";
+
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/utilities";
+
+@import "~bootstrap/scss/_grid";
+
+
+
+@import "~swiper/swiper";
 
 @import 'global/fonts';
 @import 'global/vars';
@@ -9,8 +22,13 @@
 
 
 @import 'shared/header';
-@import 'shared/preloader';
+@import 'shared/footer';
 
-@import 'modules/home';
+
+@import 'modules/slideshow';
+@import 'modules/section';
+@import 'modules/categorias-producto';
+@import 'modules/categorias-recetas';
+@import 'modules/grid-producto';
 
 

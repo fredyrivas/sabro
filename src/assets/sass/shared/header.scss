@@ -1,11 +1,57 @@
-header{
-    margin-top: 50px;
-    
-    img{
-        width: 142px;
+header {
+    background-color: rgba(0, 0, 0, .3);
+    position: fixed;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    z-index: 999;
 
-        @include media-breakpoint-down(sm) {
-            width: 100px;
+    .header_inner{
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+
+        .logo_sabropollo{
+            width: 130px;
+            margin-right: 5px;
+
+            img{
+                position: absolute;
+                width: 130px;
+            }
+        }
+
+        a.logo_sabropollo{
+            padding: 10px 0 0 0;
+        }
+
+        a{
+            text-transform: uppercase;
+            color: white;
+            text-decoration: none;
+            font-size: 1em;
+            padding: 15px 0 12px;   
+        }
+
+        a.menu_name{
+            position: relative;
+            img{
+                position: absolute;
+                bottom: 10px;
+                left: 50%;
+                transform: translate(-50%, 0);
+                display: none;
+            }
+        }
+        a.menu_selected{
+            img{
+                display: block;
+            }
+        }
+
+        a.mail_icon{
+            margin-left: 20px;
         }
     }
 }

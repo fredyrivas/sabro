@@ -1,0 +1,159 @@
+#productos
+    .slideshow_wrapper
+        .swiper-wrapper
+            .swiper-slide
+                .media_container(style="background-image: url('assets/img/portada_sabropollo.jpg')")
+                    .overlay
+                .info_container
+                    h1.tile pollo canal
+                    p.description Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni iure accusamus cum quaerat illum ab.
+                    a.cta(href="#") seguir leyendo
+                .scroll_icon
+                    img(src="assets/img/scroll_icon.svg", alt="")
+                
+
+            .swiper-slide
+                .media_container(style="background-image: url('assets/img/portada_sabropollo.jpg')")
+                    .overlay
+                .info_container
+                    h1.tile linea suprema
+                    p.description Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore deleniti assumenda placeat eius a praesentium ipsum qui adipisci molestiae.
+                    a.cta(href="#") ver más recetas
+                .scroll_icon
+                    img(src="assets/img/scroll_icon.svg", alt="")
+            
+            
+            .swiper-slide
+                .media_container(style="background-image: url('assets/img/portada_productos.jpg')")
+                    .overlay
+                .info_container
+                    h1.tile partes de pollo
+                    p.description Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore deleniti assumenda placeat eius a praesentium ipsum qui adipisci molestiae.
+                    a.cta(href="#") ver todos
+                .scroll_icon
+                    img(src="assets/img/scroll_icon.svg", alt="")
+                    
+        .top_section_mask
+            svg(version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1919 256.6" style="enable-background:new 0 0 1919 256.6;" xml:space="preserve")
+                
+                path#ondita.st1(d='M1919,0v256.6H0V0C0,0,910.7,506.8,1919,0z')
+                path#planicie.st1(d='M1919,228.4v28.2H0v-28.2H1919z')
+
+        .swiper_navigation
+            .nav_left
+                img(src="assets/img/arrow-white.svg", alt="")
+            .nav_right
+                img(src="assets/img/arrow-white.svg", alt="")
+
+    .section_content.container-fluid
+        .row.justify-content-center
+            .col-10.text-center
+                .title_sabro
+                    h2 productos
+                    img.menu_selected(src="assets/img/menu_selected.svg", alt="")
+                    img.salpicon(src="assets/img/salpicon-black.svg", alt="")
+                
+                .categorias_producto
+                    a.catname_producto.cat_selected(href="") pollo canal
+                    a.catname_producto(href="") partes de pollo 
+                    a.catname_producto(href="") deshuesados
+                    a.catname_producto(href="") aplanados
+                    a.catname_producto(href="") linea suprema
+                    a.catname_producto(href="") menudencias y otros productos
+
+            
+    .container-fluid
+        .row.justify-content-center
+            .col-10
+                //.container
+                .row.producto_grid
+                    .col-xs-12.col-lg-6.product_container
+                        .left_prod
+                            img.product_image(src="assets/img/foto_pollo.jpg", alt="")
+                            .receta_disponible
+                                img(src="assets/img/receta_disponible.svg", alt="")
+
+                        .right_prod 
+                            h1.product_name Pollo sin menudencias
+                            span.spec_name Tamaño
+                            select.spec_select
+                                option(selected) Select
+                                option 2kg
+                                option 5kg
+
+                            span.spec_name Peso promedio
+                            .spec_content 115kg
+
+                            span.spec_name Sugerencia de uso
+                            .spec_content Rostizar, parrilleros y asadores
+
+                            a.spec_cta(href="") ver receta
+
+                    .col-xs-12.col-lg-6.product_container
+                        .left_prod
+                            img.product_image(src="assets/img/foto_pechuga.jpg", alt="")
+                            
+
+                        .right_prod 
+                            h1.product_name Pechuga de pollo
+                            span.spec_name Tamaño
+                            select.spec_select
+                                option(selected) Select
+                                option 2kg
+                                option 5kg
+
+                            span.spec_name Peso promedio
+                            .spec_content 800gr
+
+                            span.spec_name Sugerencia de uso
+                            .spec_content Rostizar, parrilleros y asadores
+
+                            
+                    
+                    
+                    .col-xs-12.col-lg-6.product_container
+                        .left_prod
+                            img.product_image(src="assets/img/foto_pechuga.jpg", alt="")
+                            .receta_disponible
+                                img(src="assets/img/receta_disponible.svg", alt="")
+
+                        .right_prod 
+                            h1.product_name Pechuga de pollo
+                            span.spec_name Tamaño
+                            select.spec_select
+                                option(selected) Select
+                                option 2kg
+                                option 5kg
+
+                            span.spec_name Peso promedio
+                            .spec_content 800gr
+
+                            span.spec_name Sugerencia de uso
+                            .spec_content Rostizar, parrilleros y asadores
+
+                            a.spec_cta(href="") ver receta
+        
+                    .col-xs-12.col-lg-6.product_container
+                        .left_prod
+                            img.product_image(src="assets/img/foto_pollo.jpg", alt="")
+                            .receta_disponible
+                                img(src="assets/img/receta_disponible.svg", alt="")
+
+                        .right_prod 
+                            h1.product_name Pollo sin menudencias
+                            span.spec_name Tamaño
+                            select.spec_select
+                                option(selected) Select
+                                option 2kg
+                                option 5kg
+
+                            span.spec_name Peso promedio
+                            .spec_content 115kg
+
+                            span.spec_name Sugerencia de uso
+                            .spec_content Rostizar, parrilleros y asadores
+
+                            a.spec_cta(href="") ver receta
+
+
+    include ../shared/footer.pug

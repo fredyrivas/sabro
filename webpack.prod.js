@@ -3,9 +3,9 @@ const common = require('./webpack.common.js');
 //const FaviconsWebpackPlugin = require('favicons-webpack-plugin')
 
 module.exports = merge(common, {
-    mode: 'production',
+    mode: 'production'
     
-    devtool: 'source-map'
+    //devtool: 'source-map'
 
     // plugins: [
     //     new FaviconsWebpackPlugin({

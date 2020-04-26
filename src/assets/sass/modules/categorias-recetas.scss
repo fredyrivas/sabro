@@ -1,0 +1,55 @@
+.categorias_recteas{
+    
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+
+    .fila{
+        display: flex;
+        height: 400px;
+
+        .color1{
+            background-color: #FDCE01;
+        }
+        .color2{
+            background-color: $orange-color;
+        }
+        .color3{
+            background-color: #EEB700;
+        }
+            
+        
+        .thumb_image{
+            width: 70%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+        }
+        .thumb_name{
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+
+        h2{
+            font-size: 2.5em;
+            text-transform: uppercase;
+            font-weight: 400;
+            margin: 0 0 10px;
+        }
+        a{
+            background-color: white;
+            font-size: .85em;
+            padding: 9px 22px;
+            border-radius: 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 600;
+            color: black;
+        }
+    }
+ 
+}
