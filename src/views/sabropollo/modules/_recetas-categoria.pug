@@ -56,7 +56,70 @@
     .container-fluid
         .row.justify-content-center
             .col-10.grid-rectas-categoria
+
+                .options
+                    .opt_left
+                        a(href="/recetas.html") < Regresar
+                    .opt_right
+                        span.spec_name Filtrar por
+                        select.filter_select
+                                option(selected) Seleccionar
+                                option Pollo sin menudencias
+                                option Pollo con menudencias
+                                option Partes de pollo con piel
+                                option Partes de pollo sin piel
+                                option Deshuesados
+                                option Aplanados
+                                option Linea suprema
+                                option Menudencias y otros productos
+                                
+
             
+                .grid
+                    .grid-sizer
+                    .gutter-sizer
+
+                    .item.item--height2(style="background-image: url('assets/img/pastor.jpg')", data-filter="")
+                        .item_info
+                            h3.receta_name taquitos de pastor 
+                                img.receta_sub(src="assets/img/sub_receta.svg", alt="")
+                            a.cta_receta(href="/recetas-single.html") ver receta
+                    .item(style="background-image: url('assets/img/albondiga.jpg')")
+                        .item_info
+                            h3.receta_name albondiguitas con arroz 
+                                img.receta_sub(src="assets/img/sub_receta.svg", alt="")
+                            a.cta_receta(href="/recetas-single.html") ver receta
+                    .item.item--height2(style="background-image: url('assets/img/hamburguesa.jpg')")
+                        .item_info
+                            h3.receta_name hamburguesa suprema
+                                img.receta_sub(src="assets/img/sub_receta.svg", alt="")
+                            a.cta_receta(href="/recetas-single.html") ver receta
+                    .item.item--height2(style="background-image: url('assets/img/muslo.jpg')")
+                        .item_info
+                            h3.receta_name muslo a la veracruzana 
+                                img.receta_sub(src="assets/img/sub_receta.svg", alt="")
+                            a.cta_receta(href="/recetas-single.html") ver receta
+                    .item(style="background-image: url('assets/img/taco.jpg')")
+                        .item_info
+                            h3.receta_name taco de huevo con catsun
+                                img.receta_sub(src="assets/img/sub_receta.svg", alt="")
+                            a.cta_receta(href="/recetas-single.html") ver receta
+                    .item(style="background-image: url('assets/img/alambre.jpg')")
+                        .item_info
+                            h3.receta_name alambre de pollito
+                                img.receta_sub(src="assets/img/sub_receta.svg", alt="")
+                            a.cta_receta(href="/recetas-single.html") ver receta
+                    .item(style="background-image: url('assets/img/pastor.jpg')")
+                        .item_info
+                            h3.receta_name taquito de pastor
+                                img.receta_sub(src="assets/img/sub_receta.svg", alt="")
+                            a.cta_receta(href="/recetas-single.html") ver receta
+                    .item.item--height2(style="background-image: url('assets/img/albondiga.jpg')")
+                        .item_info
+                            h3.receta_name albondigas con arroz
+                                img.receta_sub(src="assets/img/sub_receta.svg", alt="")
+                            a.cta_receta(href="/recetas-single.html") ver receta
+
                 
 
                

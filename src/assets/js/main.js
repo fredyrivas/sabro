@@ -3,6 +3,7 @@ window.$ = window.jQuery = require("jquery");
 import Slideshow from './modules/Slideshow.js'
 import Ondita from './modules/Ondita.js'
 import Menuselect from './modules/Menuselect.js'
+import Recetas from './modules/Recetas.js'
 
 
 
@@ -18,6 +19,7 @@ const initApp = () => {
     APP.Slideshow = new Slideshow()
     APP.Ondita = new Ondita()
     APP.Menuselect = new Menuselect()
+    APP.Recetas = new Recetas()
 }
 
 

@@ -4,7 +4,10 @@ export default class Slideshow {
 
     constructor(options) {
 
-        this.setupSwiper()
+        if($('.prevent_slider').length != 1){
+            this.setupSwiper()
+        }
+        
     }
 
 
@@ -13,7 +16,7 @@ export default class Slideshow {
             speed: 530,
             spaceBetween: 0,
             autoplay: {
-                delay: 10000,
+                delay: 22000,
             },
             loop: true,
             loopedSlides: 2,

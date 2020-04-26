@@ -57,6 +57,12 @@ module.exports = {
             template: './src/views/sabropollo/recetas-categoria.pug',
             chunks: ['sabro']
         }),
+        new HtmlWebpackPlugin({
+            filename: 'recetas-single.html',
+            hash: true,
+            template: './src/views/sabropollo/recetas-single.pug',
+            chunks: ['sabro']
+        }),
 
 
 
