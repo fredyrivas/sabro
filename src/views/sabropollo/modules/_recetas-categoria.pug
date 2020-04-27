@@ -1,4 +1,4 @@
-#recetas
+#recetas-categoria
     .slideshow_wrapper
         .swiper-wrapper
             .swiper-slide
@@ -8,8 +8,6 @@
                     h1.tile taquitos al pastor de pollo
                     p.description Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni iure accusamus cum quaerat illum ab.
                     a.cta(href="#") ver receta
-                .scroll_icon
-                    img(src="assets/img/scroll_icon.svg", alt="")
                 
 
             .swiper-slide
@@ -19,25 +17,15 @@
                     h1.tile albondiguitas con huevito
                     p.description Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore deleniti assumenda placeat eius a praesentium ipsum qui adipisci molestiae.
                     a.cta(href="#") ver receta
-                .scroll_icon
-                    img(src="assets/img/scroll_icon.svg", alt="")
             
             
             .swiper-slide
                 .media_container(style="background-image: url('assets/img/hamburguesa.jpg')")
                     .overlay
                 .info_container
-                    h1.tile hamburguesa suprema
+                    h1.tile hamburguesa Linea suprema
                     p.description Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore deleniti assumenda placeat eius a praesentium ipsum qui adipisci molestiae.
                     a.cta(href="#") ver receta
-                .scroll_icon
-                    img(src="assets/img/scroll_icon.svg", alt="")
-                    
-        .top_section_mask
-            svg(version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1919 256.6" style="enable-background:new 0 0 1919 256.6;" xml:space="preserve")
-                
-                path#ondita.st1(d='M1919,0v256.6H0V0C0,0,910.7,506.8,1919,0z')
-                path#planicie.st1(d='M1919,228.4v28.2H0v-28.2H1919z')
 
         .swiper_navigation
             .nav_left
@@ -46,6 +34,12 @@
                 img(src="assets/img/arrow-white.svg", alt="")
 
     .section_content.container-fluid
+        .top_section_mask
+            svg(version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1919 256.6" style="enable-background:new 0 0 1919 256.6;" xml:space="preserve")
+                
+                path#ondita.st1(d='M1919,0v256.6H0V0C0,0,910.7,506.8,1919,0z')
+                path#planicie.st1(d='M1919,228.4v28.2H0v-28.2H1919z')
+
         .row.justify-content-center
             .col-10.text-center
                 .title_sabro
@@ -62,16 +56,9 @@
                         a(href="/recetas.html") < Regresar
                     .opt_right
                         span.spec_name Filtrar por
-                        select.filter_select
-                                option(selected) Seleccionar
-                                option Pollo sin menudencias
-                                option Pollo con menudencias
-                                option Partes de pollo con piel
-                                option Partes de pollo sin piel
-                                option Deshuesados
-                                option Aplanados
-                                option Linea suprema
-                                option Menudencias y otros productos
+                        select.filter_select#recetas_filter
+                            option(value="todos", selected) Todos
+                            // dynamically build with JS
                                 
 
             
@@ -79,45 +66,65 @@
                     .grid-sizer
                     .gutter-sizer
 
-                    .item.item--height2(style="background-image: url('assets/img/pastor.jpg')", data-filter="")
+                    .item.item--height2(style="background-image: url('assets/img/pastor.jpg')", data-filter="Pollo canal")
                         .item_info
                             h3.receta_name taquitos de pastor 
-                                img.receta_sub(src="assets/img/sub_receta.svg", alt="")
+                            img.receta_sub(src="assets/img/sub_receta.svg", alt="")
                             a.cta_receta(href="/recetas-single.html") ver receta
-                    .item(style="background-image: url('assets/img/albondiga.jpg')")
+                    .item(style="background-image: url('assets/img/albondiga.jpg')", data-filter="Partes de pollo")
                         .item_info
                             h3.receta_name albondiguitas con arroz 
-                                img.receta_sub(src="assets/img/sub_receta.svg", alt="")
+                            img.receta_sub(src="assets/img/sub_receta.svg", alt="")
                             a.cta_receta(href="/recetas-single.html") ver receta
-                    .item.item--height2(style="background-image: url('assets/img/hamburguesa.jpg')")
+                    .item.item--height2(style="background-image: url('assets/img/hamburguesa.jpg')", data-filter="Deshuesados")
                         .item_info
-                            h3.receta_name hamburguesa suprema
-                                img.receta_sub(src="assets/img/sub_receta.svg", alt="")
+                            h3.receta_name hamburguesa Linea suprema
+                            img.receta_sub(src="assets/img/sub_receta.svg", alt="")
                             a.cta_receta(href="/recetas-single.html") ver receta
-                    .item.item--height2(style="background-image: url('assets/img/muslo.jpg')")
+                    .item.item--height2(style="background-image: url('assets/img/muslo.jpg')", data-filter="Aplanados")
                         .item_info
                             h3.receta_name muslo a la veracruzana 
-                                img.receta_sub(src="assets/img/sub_receta.svg", alt="")
+                            img.receta_sub(src="assets/img/sub_receta.svg", alt="")
                             a.cta_receta(href="/recetas-single.html") ver receta
-                    .item(style="background-image: url('assets/img/taco.jpg')")
+                    .item(style="background-image: url('assets/img/taco.jpg')", data-filter="Linea suprema")
                         .item_info
                             h3.receta_name taco de huevo con catsun
-                                img.receta_sub(src="assets/img/sub_receta.svg", alt="")
+                            img.receta_sub(src="assets/img/sub_receta.svg", alt="")
                             a.cta_receta(href="/recetas-single.html") ver receta
-                    .item(style="background-image: url('assets/img/alambre.jpg')")
+                    .item(style="background-image: url('assets/img/alambre.jpg')", data-filter="Menudencias")
                         .item_info
                             h3.receta_name alambre de pollito
-                                img.receta_sub(src="assets/img/sub_receta.svg", alt="")
+                            img.receta_sub(src="assets/img/sub_receta.svg", alt="")
                             a.cta_receta(href="/recetas-single.html") ver receta
-                    .item(style="background-image: url('assets/img/pastor.jpg')")
+                    .item(style="background-image: url('assets/img/pastor.jpg')", data-filter="Pollo canal")
                         .item_info
                             h3.receta_name taquito de pastor
-                                img.receta_sub(src="assets/img/sub_receta.svg", alt="")
+                            img.receta_sub(src="assets/img/sub_receta.svg", alt="")
                             a.cta_receta(href="/recetas-single.html") ver receta
-                    .item.item--height2(style="background-image: url('assets/img/albondiga.jpg')")
+                    .item.item--height2(style="background-image: url('assets/img/albondiga.jpg')", data-filter="Pollo canal")
                         .item_info
                             h3.receta_name albondigas con arroz
-                                img.receta_sub(src="assets/img/sub_receta.svg", alt="")
+                            img.receta_sub(src="assets/img/sub_receta.svg", alt="")
+                            a.cta_receta(href="/recetas-single.html") ver receta
+                    .item(style="background-image: url('assets/img/albondiga.jpg')", data-filter="Partes de pollo")
+                        .item_info
+                            h3.receta_name albondiguitas con arroz 
+                            img.receta_sub(src="assets/img/sub_receta.svg", alt="")
+                            a.cta_receta(href="/recetas-single.html") ver receta
+                    .item.item--height2(style="background-image: url('assets/img/hamburguesa.jpg')", data-filter="Deshuesados")
+                        .item_info
+                            h3.receta_name hamburguesa Linea suprema
+                            img.receta_sub(src="assets/img/sub_receta.svg", alt="")
+                            a.cta_receta(href="/recetas-single.html") ver receta
+                    .item(style="background-image: url('assets/img/taco.jpg')", data-filter="Linea suprema")
+                        .item_info
+                            h3.receta_name taco de huevo con catsun
+                            img.receta_sub(src="assets/img/sub_receta.svg", alt="")
+                            a.cta_receta(href="/recetas-single.html") ver receta
+                    .item(style="background-image: url('assets/img/alambre.jpg')", data-filter="Menudencias")
+                        .item_info
+                            h3.receta_name alambre de pollito
+                            img.receta_sub(src="assets/img/sub_receta.svg", alt="")
                             a.cta_receta(href="/recetas-single.html") ver receta
 
                 

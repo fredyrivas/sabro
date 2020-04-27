@@ -22,7 +22,8 @@ export default class Ondita {
 
     setOnditaTL() {
         this.onditaTl = new TimelineMax()
-        this.onditaTl.to('#ondita', 5, { morphSVG: '#planicie' })
+        this.onditaTl.to('#ondita', 5, { morphSVG: '#planicie' }, 0)
+        //this.onditaTl.to('.top_section_mask', 5, { y: 20 }, 0)
     }
 
 

@@ -63,6 +63,36 @@ module.exports = {
             template: './src/views/sabropollo/recetas-single.pug',
             chunks: ['sabro']
         }),
+        new HtmlWebpackPlugin({
+            filename: 'sabrotips.html',
+            hash: true,
+            template: './src/views/sabropollo/sabrotips.pug',
+            chunks: ['sabro']
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'calidad.html',
+            hash: true,
+            template: './src/views/sabropollo/calidad.pug',
+            chunks: ['sabro']
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'expendios.html',
+            hash: true,
+            template: './src/views/sabropollo/expendios.pug',
+            chunks: ['sabro']
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'contacto.html',
+            hash: true,
+            template: './src/views/sabropollo/contacto.pug',
+            chunks: ['sabro']
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'ventas.html',
+            hash: true,
+            template: './src/views/sabropollo/ventas.pug',
+            chunks: ['sabro']
+        }),
 
 
 

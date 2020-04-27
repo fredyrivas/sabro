@@ -4,6 +4,7 @@ import Slideshow from './modules/Slideshow.js'
 import Ondita from './modules/Ondita.js'
 import Menuselect from './modules/Menuselect.js'
 import Recetas from './modules/Recetas.js'
+import Scrollto from './modules/Scrollto.js'
 
 
 
@@ -20,6 +21,7 @@ const initApp = () => {
     APP.Ondita = new Ondita()
     APP.Menuselect = new Menuselect()
     APP.Recetas = new Recetas()
+    APP.Scrollto = new Scrollto()
 }
 
 

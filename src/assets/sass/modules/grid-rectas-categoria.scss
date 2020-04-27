@@ -1,11 +1,7 @@
-
-
 .grid-rectas-categoria {
     width: 100%;
     margin-top: 20px;
     margin-bottom: 100px;
-
-    
 
     .grid {
         height: 100%;
@@ -45,12 +41,14 @@
         h3.receta_name {
             font-size: 1.7em;
             text-transform: capitalize;
-            width: 60%;
+            width: 70%;
             text-align: center;
             display: block;
         }
         img.receta_sub {
-            width: 75%;
+            width: 41%;
+            margin-bottom: 35px;
+            margin-top: -17px;
         }
 
         a.cta_receta {
@@ -65,8 +63,6 @@
         }
     }
 }
-
-
 
 .options {
     width: 100%;

@@ -7,16 +7,6 @@
     .fila{
         display: flex;
         height: 400px;
-
-        .color1{
-            background-color: #FDCE01;
-        }
-        .color2{
-            background-color: $orange-color;
-        }
-        .color3{
-            background-color: #EEB700;
-        }
             
         
         .thumb_image{
@@ -52,4 +42,17 @@
         }
     }
  
+}
+
+.color1{
+    background-color: #FDCE01;
+}
+.color2{
+    background-color: $orange-color;
+}
+.color3{
+    background-color: #EEB700;
+}
+.color4{
+    background-color: #f9f9f9;
 }

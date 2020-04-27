@@ -1,0 +1,59 @@
+.section_title {
+    position: relative;
+    display: inline-block;
+
+    h1 {
+        font-family: "Blog";
+        font-size: 7.5em;
+        text-transform: capitalize;
+        position: relative;
+        color: white;
+    }
+    .salpicon {
+        position: absolute;
+        top: 20%;
+        right: -16%;
+        width: 74px;
+    }
+}
+
+
+.sabrotips_titles{
+    margin: 30px 0 50px;
+
+    h2{
+        font-size: 2.2em;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin: 0 0 10px;
+    }
+    p{
+        font-size: 1.3em;
+        margin: 0;
+    }
+}
+
+.sabrotips_grid{
+    margin: 0 0 120px;
+
+    .tips_box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 500px;
+
+        img.tips_image{
+            width: 35%;
+            margin-bottom: 30px;
+        }
+
+        p.tips_description{
+            width: 55%;
+            font-size: 1.6em;
+            text-align: center;
+            margin: 0;
+        }
+    }
+}
+

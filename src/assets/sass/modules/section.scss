@@ -11,6 +11,9 @@
     }
 }
 
+
+
+
 .title_sabro {
     position: relative;
     display: inline-block;
@@ -39,4 +42,24 @@ p.paragraph_sabro {
     width: 100%;
     max-width: 500px;
     margin: 20px auto;
+}
+
+p.paragraph_sabro.larger {
+    max-width: 800px;
+}
+
+
+#calidad{
+    .title_sabro {
+    
+        .menu_selected {
+            bottom: 20px;
+            width: 50%;
+        }
+        .salpicon {
+            top: 12px;
+            right: -10%;
+            width: 38px;
+        }
+    }
 }
