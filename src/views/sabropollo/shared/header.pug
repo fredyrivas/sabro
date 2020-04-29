@@ -15,8 +15,20 @@ header
         a(href="./").logo_sabropollo
             img(src="assets/img/logo_sabropollo.svg", alt="")
 
-        a(href="./", data-manuname="home").menu_name ¿quiénes somos?
-            img(src="assets/img/menu_selected.svg", alt="")
+        .menu_name#marcas_menu(data-manuname="home")
+            a(href="./") ¿quiénes somos?
+                img(src="assets/img/menu_selected.svg", alt="")
+            ul#submenu
+                li.subMenuBtn
+                    a(href="./") Sabro pollo
+                li.subMenuBtn
+                    a(href="./") Sabro huevo
+                li.subMenuBtn
+                    a(href="./") Aliamsa
+                li.subMenuBtn
+                    a(href="./") Grupo Interpec
+            
+                
        
         a(href="./productos.html", data-manuname="productos").menu_name productos
             img(src="assets/img/menu_selected.svg", alt="")

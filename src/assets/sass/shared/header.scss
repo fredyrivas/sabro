@@ -1,4 +1,4 @@
-.overlaymenu{
+.overlaymenu {
     position: fixed;
     top: 11%;
     left: 0;
@@ -32,7 +32,56 @@ header {
             display: block;
         }
 
-        
+        #marcas_menu {
+            padding: 15px 0 12px;
+
+            @include media-breakpoint-only(sm) {
+                margin-bottom: 120px;
+            }
+
+            a {
+                @include media-breakpoint-only(sm) {
+                    color: black;
+                }
+
+                img {
+                    bottom: 10px;
+
+                    @include media-breakpoint-only(sm) {
+                        bottom: 0;
+                    }
+                }
+            }
+
+            #submenu {
+                position: absolute;
+                background-color: rgba(0, 0, 0, 0.3);
+                top: 36px;
+                left: -17px;
+                padding: 19px 26px 22px;
+                width: 175px;
+                list-style: none;
+                visibility: hidden;
+
+                @include media-breakpoint-only(sm) {
+                    visibility: visible;
+                    background-color: rgba(0, 0, 0, 0);
+                    top: 28px;
+                    left: -9px;
+                }
+
+                .subMenuBtn {
+                    margin-bottom: 8px;
+
+                    a{
+                        @include media-breakpoint-only(sm) {
+                            font-weight: 400;
+                            font-size: .8em;
+                        }
+                    }
+                }
+            }
+        }
 
         .bgmenu {
             position: absolute;
@@ -101,9 +150,14 @@ header {
             text-decoration: none;
             font-size: 1em;
             padding: 15px 0 12px;
+            transition: 0.2s;
         }
 
-        a.menu_name {
+        a:hover {
+            color: $orange-color;
+        }
+
+        .menu_name {
             position: relative;
 
             @include media-breakpoint-only(sm) {
@@ -129,7 +183,7 @@ header {
                 }
             }
         }
-        a.menu_selected {
+        .menu_selected {
             @include media-breakpoint-only(sm) {
                 font-weight: 600;
             }

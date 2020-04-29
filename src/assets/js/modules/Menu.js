@@ -33,7 +33,9 @@ export default class Menu {
         this.menucardTL.add(TweenMax.to('.close_menu', .7, { autoAlpha: 1 }), .4)
 
         this.menucardTL.add(TweenMax.staggerTo('.menu_name', .4, { y: 0, autoAlpha: 1 }, .04), .4)
-
+        
+        this.menucardTL.add(TweenMax.staggerTo('.subMenuBtn', .4, { y: 0, autoAlpha: 1 }, .04), .4)
+        
         this.menucardTL.pause()
     }
 

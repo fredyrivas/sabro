@@ -3,6 +3,12 @@ export default class Menuselect {
     constructor(options) {
 
         this.setup()
+        
+        if(!APP.isMobileDevice){
+            TweenMax.set("#submenu", {autoAlpha:0});
+            this.setupSubmenu()
+        }
+
     }
 
     setup() {
@@ -15,6 +21,15 @@ export default class Menuselect {
             if(currentsection == itemname){
                 $(item).addClass('menu_selected')
             }
+        })
+    }
+
+    setupSubmenu(){
+        $('#marcas_menu').on('mouseenter', () => {
+            TweenMax.to("#submenu", .45, {autoAlpha:1});
+        })
+        $('#marcas_menu').on('mouseleave', () => {
+            TweenMax.to("#submenu", .45, {autoAlpha:0});
         })
     }
 }

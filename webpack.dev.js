@@ -11,6 +11,7 @@ module.exports = merge(common, {
         //contentBase: './dist'
         contentBase: path.join(__dirname, 'dist'),
         host: '192.168.1.66',
+        port: 8000,
         https: false
     }
 
