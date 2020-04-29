@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12,22 C17.5228475,22 22,17.5228475 22,12 C22,6.4771525 17.5228475,2 12,2 C6.4771525,2 2,6.4771525 2,12 C2,17.5228475 6.4771525,22 12,22 Z M12,0 C18.627417,0 24,5.372583 24,12 C24,18.627417 18.627417,24 12,24 C5.372583,24 0,18.627417 0,12 C0,5.372583 5.372583,0 12,0 Z M17.1077461,7.97426897 L17.1036792,7.9783596 L9.59,15.58 L6.12461259,12.1146126 C5.7350637,11.7250637 5.10382497,11.7239484 4.71290203,12.1121184 L4.71,12.115 C4.31926097,12.5029873 4.31703029,13.1342698 4.70501764,13.5250088 L4.70750442,13.5275044 L9.59,18.41 L18.5151938,9.38635454 C18.9020647,8.99521616 18.9003364,8.36504062 18.5113259,7.97603013 L18.5095647,7.97426897 C18.1224632,7.58716745 17.4948476,7.58716745 17.1077461,7.97426897 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Molecules-/-Bullet-link" transform="translate(0.000000, -3.000000)">
+            <g id="Atoms-/-icons-/-System-/-Check" transform="translate(0.000000, 3.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#C2D1D9" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <g id="Atoms-/-Colors-/-Accent-Copy" mask="url(#mask-2)" fill="#F6C402" fill-rule="evenodd">
+                    <rect id="Rectangle-5" x="0" y="0" width="24" height="24"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

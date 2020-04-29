@@ -13,7 +13,8 @@ module.exports = {
     
 
     output: {
-        filename: '[name].[contenthash].js',
+        // filename: '[name].[contenthash].js',
+        filename: '[name].js',
         path: path.resolve(__dirname, 'dist')
     },
 
@@ -27,69 +28,70 @@ module.exports = {
         new CleanWebpackPlugin(['dist']),
 
         new MiniCssExtractPlugin({
-            filename: "[name][contenthash].css"
+            // filename: "[name][contenthash].css"
+            filename: "[name].css"
         }),
 
 
         ///////////first page loaded SABRO POLLO index
         new HtmlWebpackPlugin({
             filename: 'index.html',
-            hash: true,
+            hash: false,
             template: './src/views/sabropollo/index.pug',
             chunks: ['sabro']
         }),
 
         new HtmlWebpackPlugin({
             filename: 'productos.html',
-            hash: true,
+            hash: false,
             template: './src/views/sabropollo/productos.pug',
             chunks: ['sabro']
         }),
         new HtmlWebpackPlugin({
             filename: 'recetas.html',
-            hash: true,
+            hash: false,
             template: './src/views/sabropollo/recetas.pug',
             chunks: ['sabro']
         }),
         new HtmlWebpackPlugin({
             filename: 'recetas-categoria.html',
-            hash: true,
+            hash: false,
             template: './src/views/sabropollo/recetas-categoria.pug',
             chunks: ['sabro']
         }),
         new HtmlWebpackPlugin({
             filename: 'recetas-single.html',
-            hash: true,
+            hash: false,
             template: './src/views/sabropollo/recetas-single.pug',
             chunks: ['sabro']
         }),
         new HtmlWebpackPlugin({
             filename: 'sabrotips.html',
-            hash: true,
+            hash: false,
             template: './src/views/sabropollo/sabrotips.pug',
             chunks: ['sabro']
         }),
         new HtmlWebpackPlugin({
             filename: 'calidad.html',
-            hash: true,
+            hash: false,
             template: './src/views/sabropollo/calidad.pug',
             chunks: ['sabro']
         }),
         new HtmlWebpackPlugin({
             filename: 'expendios.html',
-            hash: true,
+            hash: false,
             template: './src/views/sabropollo/expendios.pug',
             chunks: ['sabro']
         }),
         new HtmlWebpackPlugin({
             filename: 'contacto.html',
-            hash: true,
+            hash: false,
             template: './src/views/sabropollo/contacto.pug',
             chunks: ['sabro']
         }),
         new HtmlWebpackPlugin({
             filename: 'ventas.html',
-            hash: true,
+            hash: false,
             template: './src/views/sabropollo/ventas.pug',
             chunks: ['sabro']
         }),
