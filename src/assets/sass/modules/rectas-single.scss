@@ -3,15 +3,27 @@
     margin-top: 20px;
     margin-bottom: 100px;
 
+    @include media-breakpoint-only(sm) {
+        margin-bottom: 10px;
+    }
+
     p.receta_description{
         padding: 0 50px;
         text-align: center;
         margin-bottom: 60px;
+
+        @include media-breakpoint-only(sm) {
+            padding: 0;
+        }
     }
 
     .video-wrapper{
         width: 80%;
         margin: 0 auto;
+
+        @include media-breakpoint-only(sm) {
+            width: 100%;
+        }
     }
 
     .video_container {
@@ -19,6 +31,8 @@
         position: relative;
         padding-bottom: 56.25%; 
         height: 0;
+
+        
 
         iframe {
             position: absolute;
@@ -62,6 +76,10 @@
         top: 50%;
         transform: translate(0, -50%);
         background-color: $orange-color;
+
+        @include media-breakpoint-only(sm) {
+            display: none;
+        }
     }
 
     ul.preparacion_list {

@@ -16,8 +16,13 @@ export default class Recetas {
 
             this.buildSelectFilter()
             this.preloadImages()
-            this.setOver()
-            this.bindEvents()
+
+            if(!APP.isMobileDevice){
+                this.setOver()
+                this.bindEvents()
+            }
+            this.bindClick()
+            
         }
     }
 
@@ -55,11 +60,12 @@ export default class Recetas {
         $('.item').on('mouseleave', (e) => {
             TweenMax.to($(e.currentTarget).find('.item_info'), .5, { alpha: 0 })
         })
+    }
 
+    bindClick(){
         $('#recetas_filter').on('change', (e) => {
             this.filterRecetas(e)
         })
-
     }
 
     filterRecetas(e) {

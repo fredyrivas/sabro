@@ -5,6 +5,10 @@
         width: 100%;
         margin: 50px 0 0;
         display: flex;
+
+        @include media-breakpoint-only(sm) {
+            display: block;
+        }
     }
 
    
@@ -16,18 +20,35 @@
         padding-left: .5%;
         justify-content: center;
 
+        @include media-breakpoint-only(sm) {
+            width: 100%;
+            justify-content: start;
+        }
+
         img{
             width: 20px;
         }
         span{
             text-align: left;
             margin-left: 30px;
+
+            @include media-breakpoint-only(sm) {
+                font-size: .9em;
+            }
         }
     }
 
-    .expendio_map{
-        width: 100%;
-        margin-top: 60px;
+    
+
+    
+}
+
+.ventas_map{
+    width: 100%;
+    margin-top: 60px;
+
+    @include media-breakpoint-only(sm) {
+        margin-top: 10px;
     }
 
     .map_container{
@@ -35,6 +56,10 @@
         position: relative;
         padding-bottom: 56.25%; 
         height: 0;
+
+        @include media-breakpoint-only(sm) {
+            margin: 40px 0;
+        }
 
         iframe {
             position: absolute;

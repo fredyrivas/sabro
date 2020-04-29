@@ -4,8 +4,19 @@
     width: 100%;
     margin: 20px 0 120px;
 
+    @include media-breakpoint-only(sm) {
+        flex-wrap: wrap;
+        margin: 20px 0 47px;
+        align-items: center;
+        justify-content: end;
+    }
+
     .catname_producto:first-child {
         border-left: 0 solid #5d5d5d;
+
+        @include media-breakpoint-only(sm) {
+            padding-left: 0;
+        }
     }
     .catname_producto {
         font-size: 1.3em;
@@ -15,10 +26,23 @@
         text-decoration: none;
         border-left: 1px solid #5d5d5d;
         padding-left: 20px;
+
+        @include media-breakpoint-only(sm) {
+            
+            font-size: .7em;
+            margin-right: 10px;
+            padding-left: 10px;
+            border-left: 1px solid #5d5d5d;
+            margin-bottom: 10px;
+        }
     }
 
     .cat_selected {
         font-weight: 600;
         color: black;
+
+        @include media-breakpoint-only(sm) {
+            //color: black;
+        }
     }
 }
