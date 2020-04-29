@@ -14,15 +14,14 @@
         color: white;
 
         @include media-breakpoint-only(sm) {
-            font-size: 10vw;
+            font-size: 9vw;
             line-height: 1.3em;
-            width: 79%;
+            width: 83%;
             text-align: center;
             margin: 0 auto;
         }
     }
     .salpicon {
-        position: absolute;
         top: 20%;
         right: -16%;
         width: 74px;
