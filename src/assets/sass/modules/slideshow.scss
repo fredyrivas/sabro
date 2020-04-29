@@ -61,8 +61,8 @@
                     text-shadow: 0 2px 2px rgba(0, 0, 0, 0.35);
 
                     @include media-breakpoint-only(sm) {
-                        font-size: 2.5em;
-                        line-height: 1.3em;
+                        font-size: 2.4em;
+                        line-height: 1.5em;
                         margin-bottom: 20px;
                     }
 
@@ -73,9 +73,12 @@
                         top: -13px;
 
                         @include media-breakpoint-only(sm) {
-                            width: 29px;
-                            margin-left: 6px;
-                            top: -2px;
+                            width: 27px;
+                            margin-left: 0;
+                            top: -32px;
+                            position: absolute;
+                            left: -17px;
+                            transform: rotate(-101deg);
                         }
                     }
                 }

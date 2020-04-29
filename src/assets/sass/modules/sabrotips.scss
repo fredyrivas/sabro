@@ -14,7 +14,7 @@
         color: white;
 
         @include media-breakpoint-only(sm) {
-            font-size: 9vw;
+            font-size: 8vw;
             line-height: 1.3em;
             width: 83%;
             text-align: center;
@@ -27,6 +27,7 @@
         width: 74px;
 
         @include media-breakpoint-only(sm) {
+            width: 70px;
             top: -18px;
             right: 22px;
             width: 36px;
