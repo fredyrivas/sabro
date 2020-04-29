@@ -5,6 +5,7 @@ import Ondita from './modules/Ondita.js'
 import Menuselect from './modules/Menuselect.js'
 import Recetas from './modules/Recetas.js'
 import Scrollto from './modules/Scrollto.js'
+import Menu from './modules/Menu.js'
 
 
 
@@ -22,6 +23,7 @@ const initApp = () => {
     APP.Menuselect = new Menuselect()
     APP.Recetas = new Recetas()
     APP.Scrollto = new Scrollto()
+    APP.Menu = new Menu()
 }
 
 

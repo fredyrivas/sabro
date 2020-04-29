@@ -1,27 +1,39 @@
 header
     .header_inner 
-        a(href="/").logo_sabropollo
+
+        .bgmenu
+            svg(version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 375 667" style="enable-background:new 0 0 375 667;" xml:space="preserve")
+                
+                path#bgmenucard_small.st1(d='M0,29l8.4,0c3.9-0.4,5.8-2.9,5.7-7.4c-0.1-4.5,0-11.7,0-21.6L0,0V29z')
+                path#bgmenucard.st1(d='M0,648l187.8-0.1c86.7-9.7,129.3-64.8,127.9-165.4s-0.7-261.5,0-482.5L0,0V648z')
+
+
+        .hamburguer
+            img(src="assets/img/hamburguer.svg", alt="").open_menu
+            img(src="assets/img/close-menu.svg", alt="").close_menu
+
+        a(href="./").logo_sabropollo
             img(src="assets/img/logo_sabropollo.svg", alt="")
 
-        a(href="/", data-manuname="home").menu_name ¿quiénes somos?
+        a(href="./", data-manuname="home").menu_name ¿quiénes somos?
             img(src="assets/img/menu_selected.svg", alt="")
        
-        a(href="/productos.html", data-manuname="productos").menu_name productos
+        a(href="./productos.html", data-manuname="productos").menu_name productos
             img(src="assets/img/menu_selected.svg", alt="")
        
-        a(href="recetas.html", data-manuname="recetas").menu_name recetas
+        a(href="./recetas.html", data-manuname="recetas").menu_name recetas
             img(src="assets/img/menu_selected.svg", alt="")
 
-        a(href="/sabrotips.html", data-manuname="sabrotips").menu_name sabrotips
+        a(href="./sabrotips.html", data-manuname="sabrotips").menu_name sabrotips
             img(src="assets/img/menu_selected.svg", alt="")
       
-        a(href="calidad.html", data-manuname="calidad").menu_name calidad sabro
+        a(href="./calidad.html", data-manuname="calidad").menu_name calidad sabro
             img(src="assets/img/menu_selected.svg", alt="")
        
-        a(href="expendios.html", data-manuname="expendios").menu_name expendios
+        a(href="./expendios.html", data-manuname="expendios").menu_name expendios
             img(src="assets/img/menu_selected.svg", alt="")
       
-        a(href="contacto.html", data-manuname="contacto").menu_name contacto
+        a(href="./contacto.html", data-manuname="contacto").menu_name contacto
             img(src="assets/img/menu_selected.svg", alt="")
       
         a(href="mailto:example@site.com").mail_icon

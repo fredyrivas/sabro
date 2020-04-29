@@ -1,5 +1,5 @@
 header {
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(0, 0, 0, 0.3);
     position: fixed;
     width: 100%;
     color: white;
@@ -7,51 +7,144 @@ header {
     justify-content: center;
     z-index: 999;
 
-    .header_inner{
+    @include media-breakpoint-only(sm) {
+        height: 70px;
+    }
+
+    .header_inner {
         width: 80%;
         display: flex;
         justify-content: space-around;
 
-        .logo_sabropollo{
+        @include media-breakpoint-only(sm) {
+            width: 100%;
+            display: block;
+        }
+
+        .bgmenu {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            pointer-events: none;
+            visibility: hidden;
+
+            svg {
+                fill: white;
+            }
+        }
+        #bgmenucard {
+            visibility: hidden;
+        }
+
+        .hamburguer {
+            display: none;
+            position: absolute;
+            top: 36px;
+            left: 9%;
+
+            .close_menu {
+                visibility: hidden;
+            }
+
+            img {
+                position: absolute;
+                width: 20px;
+            }
+
+            @include media-breakpoint-only(sm) {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        .logo_sabropollo {
             width: 130px;
             margin-right: 5px;
+            padding: 10px 0 0 0;
 
-            img{
+            @include media-breakpoint-only(sm) {
+                position: absolute;
+                top: 10px;
+                left: 18%;
+                width: 90px;
+                padding: 0;
+            }
+
+            img {
                 position: absolute;
                 width: 130px;
+
+                @include media-breakpoint-only(sm) {
+                    width: 90px;
+                    position: relative;
+                }
             }
         }
 
-        a.logo_sabropollo{
-            padding: 10px 0 0 0;
-        }
-
-        a{
+        a {
             text-transform: uppercase;
             color: white;
             text-decoration: none;
             font-size: 1em;
-            padding: 15px 0 12px;   
+            padding: 15px 0 12px;
         }
 
-        a.menu_name{
+        a.menu_name {
             position: relative;
-            img{
+
+            @include media-breakpoint-only(sm) {
+                display: none;
+
+                position: relative;
+                color: black;
+                left: 20px;
+                top: 80px;
+            }
+
+            img {
                 position: absolute;
                 bottom: 10px;
                 left: 50%;
                 transform: translate(-50%, 0);
                 display: none;
+
+                @include media-breakpoint-only(sm) {
+                    bottom: 0;
+                    left: 0;
+                    transform: none;
+                }
             }
         }
-        a.menu_selected{
-            img{
+        a.menu_selected {
+            @include media-breakpoint-only(sm) {
+                font-weight: 600;
+            }
+
+            img {
                 display: block;
             }
         }
 
-        a.mail_icon{
+        a.mail_icon {
             margin-left: 20px;
+
+            @include media-breakpoint-only(sm) {
+                margin-left: 20px;
+                position: absolute;
+                top: 50%;
+                transform: translate(0, -50%);
+                right: 20%;
+            }
+        }
+        a.phone_icon {
+            @include media-breakpoint-only(sm) {
+                margin-left: 20px;
+                position: absolute;
+                top: 50%;
+                transform: translate(0, -50%);
+                right: 8%;
+            }
         }
     }
 }

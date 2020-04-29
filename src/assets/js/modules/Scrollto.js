@@ -18,7 +18,7 @@ export default class Scrollto {
             let scrollSomos = new ScrollTo({
                 target: document.getElementById('somos'),
                 animationFn: 'easeOut',
-                duration: 1500
+                duration: 680
             })
             $('#somos_btn').on('click', ()=>{
                 scrollSomos.scroll()
@@ -29,7 +29,7 @@ export default class Scrollto {
         let scrollSection = new ScrollTo({
             target: document.querySelector('.section_content'),
             animationFn: 'easeOut',
-            duration: 1000
+            duration: 680
         })
         $('.scroll_icon').on('click', ()=>{
             scrollSection.scroll()

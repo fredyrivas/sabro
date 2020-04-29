@@ -2,30 +2,29 @@
     .slideshow_wrapper
         .swiper-wrapper
             .swiper-slide
-                .media_container(style="background-image: url('assets/img/portada_productos.jpg')")
-                    .overlay
-                .info_container
-                    h1.tile pollo canal
-                    p.description Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni iure accusamus cum quaerat illum ab.
-                    a.cta(href="#") seguir leyendo
-                
-
-            .swiper-slide
                 .media_container(style="background-image: url('assets/img/muslo.jpg')")
                     .overlay
                 .info_container
                     h1.tile linea suprema
                     p.description Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore deleniti assumenda placeat eius a praesentium ipsum qui adipisci molestiae.
-                    a.cta(href="#") ver más recetas
-            
-            
+                    a.cta(href="./recetas.html") ver más recetas
+
+
+            .swiper-slide
+                .media_container(style="background-image: url('assets/img/portada_productos.jpg')")
+                    .overlay
+                .info_container
+                    h1.tile pollo canal
+                    p.description Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni iure accusamus cum quaerat illum ab.
+                    a.cta(href="./recetas.html") ver más recetas
+                
             .swiper-slide
                 .media_container(style="background-image: url('assets/img/portada_sabropollo.jpg')")
                     .overlay
                 .info_container
                     h1.tile partes de pollo
                     p.description Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore deleniti assumenda placeat eius a praesentium ipsum qui adipisci molestiae.
-                    a.cta(href="#") ver todos
+                    a.cta(href="./recetas.html") ver más recetas
                 
 
         .swiper_navigation
@@ -87,7 +86,7 @@
                             span.spec_name Sugerencia de uso
                             .spec_content Rostizar, parrilleros y asadores
 
-                            a.spec_cta(href="") ver receta
+                            a.spec_cta(href="./recetas-single.html") ver receta
 
                     .col-xs-12.col-lg-6.product_container
                         .left_prod
@@ -131,7 +130,7 @@
                             span.spec_name Sugerencia de uso
                             .spec_content Rostizar, parrilleros y asadores
 
-                            a.spec_cta(href="") ver receta
+                            a.spec_cta(href="./recetas-single.html") ver receta
         
                     .col-xs-12.col-lg-6.product_container
                         .left_prod
@@ -153,7 +152,7 @@
                             span.spec_name Sugerencia de uso
                             .spec_content Rostizar, parrilleros y asadores
 
-                            a.spec_cta(href="") ver receta
+                            a.spec_cta(href="./recetas-single.html") ver receta
 
 
     include ../shared/footer.pug
