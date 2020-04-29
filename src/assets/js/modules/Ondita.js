@@ -8,7 +8,9 @@ export default class Ondita {
 
     constructor(options) {
 
-        this.handleOndita()
+        if(!APP.isMobileDevice){
+            this.handleOndita()
+        }
     }
 
 

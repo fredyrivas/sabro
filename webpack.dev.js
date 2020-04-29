@@ -10,7 +10,7 @@ module.exports = merge(common, {
     devServer: {
         //contentBase: './dist'
         contentBase: path.join(__dirname, 'dist'),
-        //host: '10.112.35.130',
+        host: '192.168.1.66',
         https: false
     }
 
