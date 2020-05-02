@@ -27,7 +27,7 @@ export default class Menu {
         this.menucardTL.add(TweenMax.to('.bgmenu', .1, { autoAlpha: 1 }), .1)
         this.menucardTL.add(TweenMax.to('#bgmenucard_small', .8, { morphSVG: '#bgmenucard', x:0, ease:Power2.easeInOut }), .1)
 
-        this.menucardTL.add(TweenMax.to('.logo_sabropollo', .7, { left: '48%', ease: Power1.easeInOut }), .2)
+        this.menucardTL.add(TweenMax.to('.logo_sabro', .7, { left: '48%', ease: Power1.easeInOut }), .2)
 
         this.menucardTL.add(TweenMax.to('.open_menu', .7, { autoAlpha: 0 }), .2)
         this.menucardTL.add(TweenMax.to('.close_menu', .7, { autoAlpha: 1 }), .4)

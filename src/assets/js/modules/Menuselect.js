@@ -31,5 +31,13 @@ export default class Menuselect {
         $('#marcas_menu').on('mouseleave', () => {
             TweenMax.to("#submenu", .45, {autoAlpha:0});
         })
+        
+        
+        $('#contacto_menu').on('mouseenter', () => {
+            TweenMax.to("#submenu_contacto", .45, {autoAlpha:1});
+        })
+        $('#contacto_menu').on('mouseleave', () => {
+            TweenMax.to("#submenu_contacto", .45, {autoAlpha:0});
+        })
     }
 }

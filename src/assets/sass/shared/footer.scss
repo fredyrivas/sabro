@@ -8,29 +8,41 @@ footer {
     justify-content: center;
     z-index: 999;
 
-    .footer_inner{
+    .footer_inner {
         display: flex;
         justify-content: center;
         width: 80%;
 
-        .footer_logos{
+        .footer_logos {
             display: flex;
             justify-content: space-around;
-            width: 50%;
+            width: 60%;
             height: 70px;
 
             @include media-breakpoint-only(sm) {
                 width: 75%;
-                height: 80px;
+                height: 66px;
             }
 
-            .footer_logo:first-child{
+            .footer_logo:first-child {
                 @include media-breakpoint-only(sm) {
                     width: 36%;
                 }
             }
 
-            .footer_logo{
+            a {
+                display: flex;
+
+                @include media-breakpoint-only(sm) {
+                    position: absolute;
+                    top: 40px;
+                }
+            }
+            .footer_logo:last-child {
+                width: 110px;
+            }
+
+            .footer_logo {
                 @include media-breakpoint-only(sm) {
                     width: 47%;
                     padding: 5px;
@@ -38,15 +50,14 @@ footer {
             }
         }
 
-        .legal{
+        .legal {
             position: absolute;
             bottom: 20px;
-            font-size: .7em;
+            font-size: 0.7em;
 
             @include media-breakpoint-only(sm) {
-                bottom: 26px;
+                bottom: 19px;
             }
         }
     }
-    
 }

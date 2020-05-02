@@ -10,7 +10,7 @@ module.exports = {
     entry: {
         sabro: './src/sabro.js'
     },
-    
+
 
     output: {
         // filename: '[name].[contenthash].js',
@@ -35,66 +35,124 @@ module.exports = {
 
         ///////////first page loaded SABRO POLLO index
         new HtmlWebpackPlugin({
-            filename: 'index.html',
+            filename: 'pollo/index.html',
             hash: false,
             template: './src/views/sabropollo/index.pug',
             chunks: ['sabro']
         }),
 
         new HtmlWebpackPlugin({
-            filename: 'productos.html',
+            filename: 'pollo/productos.html',
             hash: false,
             template: './src/views/sabropollo/productos.pug',
             chunks: ['sabro']
         }),
         new HtmlWebpackPlugin({
-            filename: 'recetas.html',
+            filename: 'pollo/recetas.html',
             hash: false,
             template: './src/views/sabropollo/recetas.pug',
             chunks: ['sabro']
         }),
         new HtmlWebpackPlugin({
-            filename: 'recetas-categoria.html',
+            filename: 'pollo/recetas-categoria.html',
             hash: false,
             template: './src/views/sabropollo/recetas-categoria.pug',
             chunks: ['sabro']
         }),
         new HtmlWebpackPlugin({
-            filename: 'recetas-single.html',
+            filename: 'pollo/recetas-single.html',
             hash: false,
             template: './src/views/sabropollo/recetas-single.pug',
             chunks: ['sabro']
         }),
         new HtmlWebpackPlugin({
-            filename: 'sabrotips.html',
+            filename: 'pollo/sabrotips.html',
             hash: false,
             template: './src/views/sabropollo/sabrotips.pug',
             chunks: ['sabro']
         }),
         new HtmlWebpackPlugin({
-            filename: 'calidad.html',
+            filename: 'pollo/calidad.html',
             hash: false,
             template: './src/views/sabropollo/calidad.pug',
             chunks: ['sabro']
         }),
         new HtmlWebpackPlugin({
-            filename: 'expendios.html',
+            filename: 'pollo/expendios.html',
             hash: false,
             template: './src/views/sabropollo/expendios.pug',
             chunks: ['sabro']
         }),
         new HtmlWebpackPlugin({
-            filename: 'contacto.html',
-            hash: false,
-            template: './src/views/sabropollo/contacto.pug',
-            chunks: ['sabro']
-        }),
-        new HtmlWebpackPlugin({
-            filename: 'ventas.html',
+            filename: 'pollo/ventas.html',
             hash: false,
             template: './src/views/sabropollo/ventas.pug',
             chunks: ['sabro']
         }),
+
+
+        /////////////////////////////////////////////////
+        /////////////////////////////////////////////////
+        /////////////////////////////////////////////////
+        ///////////first page loaded SABRO HUEVO index
+        new HtmlWebpackPlugin({
+            filename: 'huevo/index.html',
+            hash: false,
+            template: './src/views/sabrohuevo/index.pug',
+            chunks: ['sabro']
+        }),
+
+        new HtmlWebpackPlugin({
+            filename: 'huevo/productos.html',
+            hash: false,
+            template: './src/views/sabrohuevo/productos.pug',
+            chunks: ['sabro']
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'huevo/recetas.html',
+            hash: false,
+            template: './src/views/sabrohuevo/recetas.pug',
+            chunks: ['sabro']
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'huevo/recetas-categoria.html',
+            hash: false,
+            template: './src/views/sabrohuevo/recetas-categoria.pug',
+            chunks: ['sabro']
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'huevo/recetas-single.html',
+            hash: false,
+            template: './src/views/sabrohuevo/recetas-single.pug',
+            chunks: ['sabro']
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'huevo/sabrotips.html',
+            hash: false,
+            template: './src/views/sabrohuevo/sabrotips.pug',
+            chunks: ['sabro']
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'huevo/calidad.html',
+            hash: false,
+            template: './src/views/sabrohuevo/calidad.pug',
+            chunks: ['sabro']
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'huevo/expendios.html',
+            hash: false,
+            template: './src/views/sabrohuevo/expendios.pug',
+            chunks: ['sabro']
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'huevo/ventas.html',
+            hash: false,
+            template: './src/views/sabrohuevo/ventas.pug',
+            chunks: ['sabro']
+        }),
+
+
+
 
 
 
