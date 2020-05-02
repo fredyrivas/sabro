@@ -155,6 +155,79 @@ module.exports = {
 
 
 
+        /////////////////////////////////////////////////
+        /////////////////////////////////////////////////
+        /////////////////////////////////////////////////
+        ///////////first page loaded ALIAMSA index
+        new HtmlWebpackPlugin({
+            filename: 'aliamsa/index.html',
+            hash: false,
+            template: './src/views/aliamsa/index.pug',
+            chunks: ['sabro']
+        }),
+
+        new HtmlWebpackPlugin({
+            filename: 'aliamsa/productos.html',
+            hash: false,
+            template: './src/views/aliamsa/productos.pug',
+            chunks: ['sabro']
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'aliamsa/calidad.html',
+            hash: false,
+            template: './src/views/aliamsa/calidad.pug',
+            chunks: ['sabro']
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'aliamsa/expendios.html',
+            hash: false,
+            template: './src/views/aliamsa/expendios.pug',
+            chunks: ['sabro']
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'aliamsa/ventas.html',
+            hash: false,
+            template: './src/views/aliamsa/ventas.pug',
+            chunks: ['sabro']
+        }),
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        /////////////////////////////////////////////////
+        /////////////////////////////////////////////////
+        /////////////////////////////////////////////////
+        ///////////first page loaded INTERPEC index
+        new HtmlWebpackPlugin({
+            filename: 'interpec/index.html',
+            hash: false,
+            template: './src/views/interpec/index.pug',
+            chunks: ['sabro']
+        }),
+
+        new HtmlWebpackPlugin({
+            filename: 'interpec/expendios.html',
+            hash: false,
+            template: './src/views/interpec/expendios.pug',
+            chunks: ['sabro']
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'interpec/ventas.html',
+            hash: false,
+            template: './src/views/interpec/ventas.pug',
+            chunks: ['sabro']
+        }),
+
+
+
+
+
 
 
 

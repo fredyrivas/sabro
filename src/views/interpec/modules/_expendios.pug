@@ -1,0 +1,59 @@
+#expendios
+    .slideshow_wrapper.prevent_slider
+        .swiper-wrapper
+            .swiper-slide
+                .media_container(style="background-image: url('../assets/img/espinaca.jpg')")
+                    .overlay
+                
+                .section_title
+                    h1 expendios sabro
+                        img.salpicon(src="../assets/img/salpicon.svg", alt="")
+                
+        
+
+        .scroll_icon
+            svg(width='39px', height='29px', viewBox='0 0 39 29')    
+                polyline#pscroll-1(points='12,0 19,7 26,0')
+                polyline#pscroll-2(points='7,4 19,16 31,4')
+                polyline#pscroll-3(points='0,8 18.5,26 37,8')
+
+
+
+    .section_content.container-fluid
+        .top_section_mask
+            svg(version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1919 256.6" style="enable-background:new 0 0 1919 256.6;" xml:space="preserve")
+                
+                path#ondita.st1(d='M1919,0v256.6H0V0C0,0,910.7,506.8,1919,0z')
+                path#planicie.st1(d='M1919,228.4v28.2H0v-28.2H1919z')
+
+        .row.justify-content-center
+            .col-xs-12.col-lg-10.expendios_block.text-center
+
+                p.paragraph_sabro Para estar más cerca de nuestros consumidores finales, disponemos de puntos de venta propios en los que comercializamos pollo fresco de primera calidad.
+
+                .expendio_info
+                    span.spec_name Selecciona un estado
+                    select.spec_select
+                        option(selected) Aguascalientes (Ciudad industrial)
+                        option Aguascalientes Centro Comercial Agropecuario 1
+                        option Aguascalientes Centro Comercial Agropecuario 2
+                        option Aguascalientes Juan Escutia
+                        option Zacatecas
+                        option Irapuato
+                        option Querétaro
+                        option Morelia
+
+                    .exp_direccion.exp_details
+                        img(src="../assets/img/address-icon.svg", alt="")
+                        span Julio Díaz Torre 104-A Ciudad Industrial C.P 20290 Aguascalientes, Ags.
+                    .exp_tel.exp_details
+                        img(src="../assets/img/phone-black.svg", alt="")
+                        span (449) 910 64 70
+
+                .expendio_map
+                    .map_container
+                        iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59247.3001998919!2d-102.3290303630926!3d21.859222701809518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xba8e4f416324d98!2ssabro%20pollo!5e0!3m2!1ses-419!2smx!4v1587932417983!5m2!1ses-419!2smx" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0")
+                
+
+
+    include ../shared/footer.pug
