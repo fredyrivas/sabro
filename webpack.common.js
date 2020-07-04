@@ -167,9 +167,21 @@ module.exports = {
         }),
 
         new HtmlWebpackPlugin({
-            filename: 'aliamsa/productos.html',
+            filename: 'aliamsa/alimento-cerdos.html',
             hash: false,
-            template: './src/views/aliamsa/productos.pug',
+            template: './src/views/aliamsa/productos-cerdos.pug',
+            chunks: ['sabro']
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'aliamsa/alimento-ganado.html',
+            hash: false,
+            template: './src/views/aliamsa/productos-ganado.pug',
+            chunks: ['sabro']
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'aliamsa/alimento-aves.html',
+            hash: false,
+            template: './src/views/aliamsa/productos-aves.pug',
             chunks: ['sabro']
         }),
         new HtmlWebpackPlugin({
@@ -240,6 +252,11 @@ module.exports = {
         new CopyWebpackPlugin([{
             from: path.resolve(__dirname, 'src/assets/fonts/'),
             to: path.resolve(__dirname, 'dist/assets/fonts/')
+        }], { debug: 'info' }),
+        
+        new CopyWebpackPlugin([{
+            from: path.resolve(__dirname, 'src/assets/js/external/'),
+            to: path.resolve(__dirname, 'dist/assets/js/external/')
         }], { debug: 'info' })
 
     ],

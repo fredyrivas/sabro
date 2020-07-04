@@ -12,11 +12,11 @@
     display: flex;
     justify-content: space-around;
     width: 100%;
-    margin: 20px 0 120px;
+    margin: 20px 0 0;
 
     @include media-breakpoint-only(sm) {
         flex-wrap: wrap;
-        margin: 20px 0 47px;
+        margin: 20px 0 0;
         align-items: center;
         justify-content: end;
     }

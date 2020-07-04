@@ -39,13 +39,13 @@
                     .row
                         .col-lg-6
                             label.spec_name Selecciona una marca
-                            select.spec_select(name="usermarca")
-                                option(selected) Sabropollo
-                                option Sabrohuevo
-                                option Aliamsa
+                            select.spec_select#directorio_ventas_marca_select(name="usermarca")
+                                option(value="pollo", selected) Sabropollo
+                                option(value="huevo") Sabrohuevo
+                                option(value="aliamsa") Aliamsa
                         .col-lg-6
                             label.spec_name Selecciona un estado
-                            select.spec_select(name="userestado")
+                            select.spec_select#estados_ventas_select(name="userestado")
                                 option(selected) Aguascalientes
                                 option México
                                 option Querétaro

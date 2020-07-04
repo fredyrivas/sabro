@@ -3,7 +3,9 @@
         .swiper-wrapper
             
             .swiper-slide
-                .media_container(style="background-image: url('../assets/img/tocino.jpg')")
+                .media_container
+                    video.bgvideo(poster='', loop='', muted='', control='', autoplay='', playsinline='')
+                        source(src='../assets/img/videocalidad.mp4', type='video/mp4')
                     .overlay
                 .info_container
                     h1.tile calidad sabro

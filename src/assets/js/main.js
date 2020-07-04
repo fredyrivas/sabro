@@ -1,4 +1,4 @@
-window.$ = window.jQuery = require("jquery");
+//window.$ = window.jQuery = require("jquery");
 
 import Slideshow from './modules/Slideshow.js'
 import Ondita from './modules/Ondita.js'
@@ -6,6 +6,7 @@ import Menuselect from './modules/Menuselect.js'
 import Recetas from './modules/Recetas.js'
 import Scrollto from './modules/Scrollto.js'
 import Menu from './modules/Menu.js'
+// import Contacto from './modules/Contacto.js'
 
 
 
@@ -24,6 +25,7 @@ const initApp = () => {
     APP.Recetas = new Recetas()
     APP.Scrollto = new Scrollto()
     APP.Menu = new Menu()
+    // APP.Contacto = new Contacto()
 }
 
 

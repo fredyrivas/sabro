@@ -1,8 +1,6 @@
 doctype html
 html
     head
-        //include ../snippets/analytics.pug
-        //include ../snippets/tagManagerHead.pug
         
         include ../snippets/metatags.pug
         
@@ -13,16 +11,14 @@ html
     body
         
         
-        //include ../snippets/tagManagerBody.pug
-        //include ../shared/header.pug
         
         block content
 
-        //script(src="assets/js/external/LZWEncoder.js")
-        //script(src="assets/js/external/NeuQuant.js")
-        //script(src="assets/js/external/GIFEncoder.js")
-        
-        //include ../shared/footer.pug
+
+        script(src="https://code.jquery.com/jquery-2.2.4.min.js", integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=", crossorigin="anonymous")
+
+        script(src="../assets/js/external/directorio-ventas.js")
+
         
 
         

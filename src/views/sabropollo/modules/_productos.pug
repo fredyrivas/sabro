@@ -74,93 +74,197 @@
         .row.justify-content-center
             .col-xs-12.col-lg-10
                 .row.producto_grid
-                    .col-xs-12.col-lg-6.product_container
-                        .left_prod
-                            img.product_image(src="../assets/img/foto_pollo.jpg", alt="")
-                            .receta_disponible
-                                img(src="../assets/img/receta_disponible.svg", alt="")
 
-                        .right_prod 
-                            h1.product_name Pollo sin menudencias
-                            span.spec_name Tamaño
-                            select.spec_select
-                                option(selected) Seleccionar
-                                option 2kg
-                                option 5kg
 
-                            span.spec_name Peso promedio
-                            .spec_content 115kg
 
-                            span.spec_name Sugerencia de uso
-                            .spec_content Rostizar, parrilleros y asadores
+                    .col-xs-12.col-md-12.product_container#producto1
+                        .row.product_wrapper
+                            .col-md-5.col-xs-12
+                                .left_prod
+                                    img.product_image(src="../assets/img/foto_pechuga.jpg", alt="")
+                                    .receta_disponible
+                                        img(src="../assets/img/receta_disponible.svg", alt="")
 
-                            a.spec_cta(href="./recetas-single.html") ver receta
+                            .col-md-7
+                                .row 
+                                    .col-md-12
+                                        h1.product_name Pollo sin menudencias
 
-                    .col-xs-12.col-lg-6.product_container
-                        .left_prod
-                            img.product_image(src="../assets/img/foto_pechuga.jpg", alt="")
-                            
+                                    .col-md-6
+                                        img.spec_img(src="../assets/img/prod_icon_badge.svg", alt="")
+                                        span.spec_name Descripción
+                                        .spec_content Pechuga sin piel, de pollo amarillo fresco, de primera calidad. Corte anatómico en la coyuntura con las alas y del costillar por la mitad.
 
-                        .right_prod 
-                            h1.product_name Pechuga de pollo
-                            span.spec_name Tamaño
-                            select.spec_select
-                                option(selected) Select
-                                option 2kg
-                                option 5kg
+                                        img.spec_img(src="../assets/img/prod_icon_dish.svg", alt="")
+                                        span.spec_name Presentaciones
+                                        .spec_content Charola de aprox. 453 g / Charola de aprox. 735 g  
 
-                            span.spec_name Peso promedio
-                            .spec_content 800gr
+                                        img.spec_img(src="../assets/img/prod_icon_heart.svg", alt="")
+                                        span.spec_name Beneficios
+                                        .spec_content Por su aporte de proteína, grasas saludables, vitaminas y minerales, Sabrohuevo es un alimento esencial que debe estar presente en tu alimentación. 
+                                        
+                                        img.spec_img(src="../assets/img/prod_icon_fork.svg", alt="")
+                                        span.spec_name Sugerencias de preparación 
+                                        .spec_content Hamburguesas, albóndigas, nuggest, pastel de carne.
+                                        
+                                        img.spec_img(src="../assets/img/prod_icon_fire.svg", alt="")
+                                        span.spec_name Sugerencias de cocción 
+                                        .spec_content Cocer, freir, asar, hornear.
 
-                            span.spec_name Sugerencia de uso
-                            .spec_content Rostizar, parrilleros y asadores
+                                        
 
-                            
+                                    .col-md-6
+                                        img.spec_img(src="../assets/img/prod_icon_plus.svg", alt="")
+                                        span.spec_name Información nutrimental 
+                                        .spec_content Tamaño porción 
+                                            span.nutri_value 100 gr
+                                        .spec_content Contenido energético 
+                                            span.nutri_value 764.3 kJ / 183.5 kcal
+                                        .spec_content Proteínas 
+                                            span.nutri_value 16.84 g
+                                        .spec_content Grasas Totales 
+                                            span.nutri_value 12.57 g
+                                        .spec_content Grasas Saturadas 
+                                            span.nutri_value 3.97 g
+                                        .spec_content Carbohidratos Totales 
+                                            span.nutri_value 0.76 g
+                                        .spec_content Azúcares 
+                                            span.nutri_value 0.00 g
+                                        .spec_content Fibra Dietética 
+                                            span.nutri_value 0.00 g
+                                        .spec_content Sodio 
+                                            span.nutri_value 90.00 mg
+
+                                        a.spec_cta(href="./recetas-single.html") ver receta
                     
                     
-                    .col-xs-12.col-lg-6.product_container
-                        .left_prod
-                            img.product_image(src="../assets/img/foto_pechuga.jpg", alt="")
-                            .receta_disponible
-                                img(src="../assets/img/receta_disponible.svg", alt="")
+                    
+                    .col-xs-12.col-md-12.product_container#producto2
+                        .row.product_wrapper
+                            .col-md-5.col-xs-12
+                                .left_prod
+                                    img.product_image(src="../assets/img/foto_pollo.jpg", alt="")
+                                    .receta_disponible
+                                        img(src="../assets/img/receta_disponible.svg", alt="")
 
-                        .right_prod 
-                            h1.product_name Pechuga de pollo
-                            span.spec_name Tamaño
-                            select.spec_select
-                                option(selected) Select
-                                option 2kg
-                                option 5kg
+                            .col-md-7
+                                .row 
+                                    .col-md-12
+                                        h1.product_name Pollo sin menudencias
 
-                            span.spec_name Peso promedio
-                            .spec_content 800gr
+                                    .col-md-6
+                                        img.spec_img(src="../assets/img/prod_icon_badge.svg", alt="")
+                                        span.spec_name Descripción
+                                        .spec_content Pechuga sin piel, de pollo amarillo fresco, de primera calidad. Corte anatómico en la coyuntura con las alas y del costillar por la mitad.
 
-                            span.spec_name Sugerencia de uso
-                            .spec_content Rostizar, parrilleros y asadores
+                                        img.spec_img(src="../assets/img/prod_icon_dish.svg", alt="")
+                                        span.spec_name Presentaciones
+                                        .spec_content Charola de aprox. 453 g / Charola de aprox. 735 g  
 
-                            a.spec_cta(href="./recetas-single.html") ver receta
-        
-                    .col-xs-12.col-lg-6.product_container
-                        .left_prod
-                            img.product_image(src="../assets/img/foto_pollo.jpg", alt="")
-                            .receta_disponible
-                                img(src="../assets/img/receta_disponible.svg", alt="")
+                                        img.spec_img(src="../assets/img/prod_icon_heart.svg", alt="")
+                                        span.spec_name Beneficios
+                                        .spec_content Por su aporte de proteína, grasas saludables, vitaminas y minerales, Sabrohuevo es un alimento esencial que debe estar presente en tu alimentación. 
+                                        
+                                        img.spec_img(src="../assets/img/prod_icon_fork.svg", alt="")
+                                        span.spec_name Sugerencias de preparación 
+                                        .spec_content Hamburguesas, albóndigas, nuggest, pastel de carne.
+                                        
+                                        img.spec_img(src="../assets/img/prod_icon_fire.svg", alt="")
+                                        span.spec_name Sugerencias de cocción 
+                                        .spec_content Cocer, freir, asar, hornear.
 
-                        .right_prod 
-                            h1.product_name Pollo sin menudencias
-                            span.spec_name Tamaño
-                            select.spec_select
-                                option(selected) Select
-                                option 2kg
-                                option 5kg
+                                        
 
-                            span.spec_name Peso promedio
-                            .spec_content 115kg
+                                    .col-md-6
+                                        img.spec_img(src="../assets/img/prod_icon_plus.svg", alt="")
+                                        span.spec_name Información nutrimental 
+                                        .spec_content Tamaño porción 
+                                            span.nutri_value 100 gr
+                                        .spec_content Contenido energético 
+                                            span.nutri_value 764.3 kJ / 183.5 kcal
+                                        .spec_content Proteínas 
+                                            span.nutri_value 16.84 g
+                                        .spec_content Grasas Totales 
+                                            span.nutri_value 12.57 g
+                                        .spec_content Grasas Saturadas 
+                                            span.nutri_value 3.97 g
+                                        .spec_content Carbohidratos Totales 
+                                            span.nutri_value 0.76 g
+                                        .spec_content Azúcares 
+                                            span.nutri_value 0.00 g
+                                        .spec_content Fibra Dietética 
+                                            span.nutri_value 0.00 g
+                                        .spec_content Sodio 
+                                            span.nutri_value 90.00 mg
 
-                            span.spec_name Sugerencia de uso
-                            .spec_content Rostizar, parrilleros y asadores
+                                        a.spec_cta(href="./recetas-single.html") ver receta
+                    
+                    
+                    .col-xs-12.col-md-12.product_container#producto3
+                        .row.product_wrapper
+                            .col-md-5
+                                .left_prod
+                                    img.product_image(src="../assets/img/foto_pechuga.jpg", alt="")
+                                    .receta_disponible
+                                        img(src="../assets/img/receta_disponible.svg", alt="")
 
-                            a.spec_cta(href="./recetas-single.html") ver receta
+                            .col-md-7
+                                .row 
+                                    .col-md-12
+                                        h1.product_name Pollo sin menudencias
+
+                                    .col-md-6
+                                        img.spec_img(src="../assets/img/prod_icon_badge.svg", alt="")
+                                        span.spec_name Descripción
+                                        .spec_content Pechuga sin piel, de pollo amarillo fresco, de primera calidad. Corte anatómico en la coyuntura con las alas y del costillar por la mitad.
+
+                                        img.spec_img(src="../assets/img/prod_icon_dish.svg", alt="")
+                                        span.spec_name Presentaciones
+                                        .spec_content Charola de aprox. 453 g / Charola de aprox. 735 g  
+
+                                        img.spec_img(src="../assets/img/prod_icon_heart.svg", alt="")
+                                        span.spec_name Beneficios
+                                        .spec_content Por su aporte de proteína, grasas saludables, vitaminas y minerales, Sabrohuevo es un alimento esencial que debe estar presente en tu alimentación. 
+                                        
+                                        img.spec_img(src="../assets/img/prod_icon_fork.svg", alt="")
+                                        span.spec_name Sugerencias de preparación 
+                                        .spec_content Hamburguesas, albóndigas, nuggest, pastel de carne.
+                                        
+                                        img.spec_img(src="../assets/img/prod_icon_fire.svg", alt="")
+                                        span.spec_name Sugerencias de cocción 
+                                        .spec_content Cocer, freir, asar, hornear.
+
+                                        
+
+                                    .col-md-6
+                                        img.spec_img(src="../assets/img/prod_icon_plus.svg", alt="")
+                                        span.spec_name Información nutrimental 
+                                        .spec_content Tamaño porción 
+                                            span.nutri_value 100 gr
+                                        .spec_content Contenido energético 
+                                            span.nutri_value 764.3 kJ / 183.5 kcal
+                                        .spec_content Proteínas 
+                                            span.nutri_value 16.84 g
+                                        .spec_content Grasas Totales 
+                                            span.nutri_value 12.57 g
+                                        .spec_content Grasas Saturadas 
+                                            span.nutri_value 3.97 g
+                                        .spec_content Carbohidratos Totales 
+                                            span.nutri_value 0.76 g
+                                        .spec_content Azúcares 
+                                            span.nutri_value 0.00 g
+                                        .spec_content Fibra Dietética 
+                                            span.nutri_value 0.00 g
+                                        .spec_content Sodio 
+                                            span.nutri_value 90.00 mg
+
+                                        a.spec_cta(href="./recetas-single.html") ver receta
+                                        
+
+
+
+
+                    
 
 
     include ../shared/footer.pug

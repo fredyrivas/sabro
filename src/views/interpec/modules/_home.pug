@@ -1,10 +1,10 @@
 #home
-    .slideshow_wrapper
+    .slideshow_wrapper.prevent_slider
         .swiper-wrapper
             .swiper-slide
                 .media_container
                     video.bgvideo(poster='', loop='', muted='', control='', autoplay='', playsinline='')
-                        source(src='assets/img/videohome.mp4', type='video/mp4')
+                        source(src='../assets/img/videointerpec.mp4', type='video/mp4')
                     .overlay
                 .info_container
                     h1.tile ¿quiénes somos?
@@ -13,31 +13,8 @@
                     a.cta#somos_btn(href="javascript:void(0)") seguir leyendo
                 
 
-            .swiper-slide
-                .media_container(style="background-image: url('../assets/img/portada_sabropollo.jpg')")
-                    .overlay
-                .info_container
-                    h1.tile recetas
-                        img.salpicon(src="../assets/img/salpicon.svg", alt="")
-                    p.description Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore deleniti assumenda placeat eius a praesentium ipsum qui adipisci molestiae.
-                    a.cta(href="./recetas.html") ver más recetas
             
-            
-            .swiper-slide
-                .media_container(style="background-image: url('../assets/img/portada_productos.jpg')")
-                    .overlay
-                .info_container
-                    h1.tile productos
-                        img.salpicon(src="../assets/img/salpicon.svg", alt="")
-                    p.description Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore deleniti assumenda placeat eius a praesentium ipsum qui adipisci molestiae.
-                    a.cta(href="./productos.html") ver todos
                     
-
-        .swiper_navigation
-            .nav_left
-                img(src="../assets/img/arrow-white.svg", alt="")
-            .nav_right
-                img(src="../assets/img/arrow-white.svg", alt="")
 
         .scroll_icon
             svg(width='39px', height='29px', viewBox='0 0 39 29')    
