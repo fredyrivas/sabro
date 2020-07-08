@@ -64,6 +64,7 @@ p.paragraph_sabro {
     width: 100%;
     max-width: 500px;
     margin: 20px auto;
+    font-size: 1.2em;
 
     @include media-breakpoint-only(sm) {
         font-size: 0.8em;
@@ -72,6 +73,17 @@ p.paragraph_sabro {
 
 p.paragraph_sabro.larger {
     max-width: 800px;
+}
+
+
+#calidad{
+    p.paragraph_sabro {
+        font-size: 1em;
+    }
+}
+
+.bullet{
+    cursor: pointer;
 }
 
 #calidad {

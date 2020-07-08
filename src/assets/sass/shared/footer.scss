@@ -46,14 +46,25 @@ footer {
                 }
             }
             .phonecontact {
-                width: 110px;
+                width: 109px !important;
+                margin-top: 0 !important;
             }
 
             .footer_logo {
+
+                
                 @include media-breakpoint-only(sm) {
                     width: 32%;
                     padding: 5px;
                 }
+            }
+
+            .footer_logo:nth-child(1) {
+                width: 86px;
+                margin-top: 8px;
+            }
+            .footer_logo:nth-child(2) {
+                width: 106px;
             }
 
             .social{
