@@ -7,9 +7,8 @@ if ($('#directorio_ventas_marca_select').length > 0) {
         '(449) 910 64 70',
         'ventas_pollo@sabro.com.mx, autoservicios@sabro.com.mx']
 
-    estados_pollo[1] = ['Zacatecas',
-        'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d118264.48247069913!2d-100.925353!3d22.134931!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842aa3c81a25b42b%3A0xd96f5be0958b1c7d!2sManuel%20de%20La%20Sierra%20103%2C%20Ricardo%20B.%20Anaya%201ra%20Secc%2C%20San%20Luis%2C%20S.L.P.%2C%20M%C3%A9xico!5e0!3m2!1ses!2sus!4v1591480038117!5m2!1ses!2sus',
-        'Mercado de Abastos No. L-4 Secc. 1 Col. Mercado de Abastos  C.P. 98057',
+    estados_pollo[1] = ['Zacatecas', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.368290406293!2d-102.50388078504402!3d22.751709685090848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868249a1a5b98e47%3A0x83d0f0d9c6ab73e!2sSabroPollo%20CEDIS%20Zacatecas!5e0!3m2!1ses-419!2smx!4v1594253013952!5m2!1ses-419!2smx',
+        'Calzada Revolución Mexicana No. 103, Zona Industria, Guadalupe, Zacatecas. C.P. 98604',
         '(492) 924 69 30 | (492) 924 88 65',
         'ventas_zacatecas@sabro.com.mx']
 
@@ -27,7 +26,7 @@ if ($('#directorio_ventas_marca_select').length > 0) {
         'ventas_slp@sabro.com.mx']
 
     estados_pollo[4] = ['Morelia',
-        'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d120204.07171890842!2d-101.255953!3d19.696557!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842d095390ccab77%3A0x7b04e7543748b810!2sMargarita%20Maza%20de%20Ju%C3%A1rez%20116%2C%20Ni%C3%B1o%20Artillero%2C%2058337%20Morelia%2C%20Mich.%2C%20M%C3%A9xico!5e0!3m2!1ses!2sus!4v1591480158976!5m2!1ses!2sus',
+        'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3756.606304330808!2d-101.19878538509629!3d19.686794786740457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842d0dd0bbfaaa03%3A0xe729f2aca4116204!2sSabro%20Pollo!5e0!3m2!1ses-419!2smx!4v1594396328367!5m2!1ses-419!2smx',
         'Margarita Maza de Juárez No. 116 Col. Felicitas del Río  C.P. 58040',
         ' (443) 316 63 00',
         'ventas_morelia@sabro.com.mx']
@@ -55,9 +54,9 @@ if ($('#directorio_ventas_marca_select').length > 0) {
         'Tel. (449) 914 19 50 | (449) 914 77 83',
         'ventas_huevo@sabro.com.mx']
 
-    estados_pollo[9] = ['Sabrohuevo Zacatecas', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.837087747102!2d-102.59870208504371!3d22.771426385080893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86824e6d726bf827%3A0x49fbdc70c0527b5c!2sSabropollo!5e0!3m2!1ses-419!2smx!4v1594239827688!5m2!1ses-419!2smx',
-        'Mercado de Abastos No. L-4 Secc. 1 Col. Mercado de Abastos  C.P. 98057',
-        '(492) 924 69 30 Fax (492) 924 88 65',
+    estados_pollo[9] = ['Sabrohuevo Zacatecas', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.368290406293!2d-102.50388078504402!3d22.751709685090848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868249a1a5b98e47%3A0x83d0f0d9c6ab73e!2sSabroPollo%20CEDIS%20Zacatecas!5e0!3m2!1ses-419!2smx!4v1594253136760!5m2!1ses-419!2smx',
+        'Calle Mercado de Abastos No. L-4 Secc. 1 Col. mercado de Abastos Zacatecas, ZAC. C.P. 98057',
+        '(492) 924 69 30 | (492) 924 88 65',
         'ventas_zacatecas@sabro.com.mx']
 
 

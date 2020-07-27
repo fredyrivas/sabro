@@ -3,19 +3,19 @@ if ($('#expendios_select').length > 0) {
 
     var expendios_pollo = []
 
-    expendios_pollo[0] = ['Aguascalientes 1', 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d118448.92868229389!2d-102.294506!3d21.914205!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8429ee538187c631%3A0x65c35745f542b3fc!2sArnulfo%20M.%20Vald%C3%A9z%20286%2C%20Centro%20Comercial%20Agropecuario%2C%2020135%20Aguascalientes%2C%20Ags.%2C%20M%C3%A9xico!5e0!3m2!1ses!2sus!4v1591407208618!5m2!1ses!2sus',
+    expendios_pollo[0] = ['Aguascalientes Norte 1', 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d118448.92868229389!2d-102.294506!3d21.914205!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8429ee538187c631%3A0x65c35745f542b3fc!2sArnulfo%20M.%20Vald%C3%A9z%20286%2C%20Centro%20Comercial%20Agropecuario%2C%2020135%20Aguascalientes%2C%20Ags.%2C%20M%C3%A9xico!5e0!3m2!1ses!2sus!4v1591407208618!5m2!1ses!2sus',
         'Norte 1: Centro Comercial Agropecuario Arnulfo M. Valdéz No. 286',
         '(449) 914-18-94']
 
-    expendios_pollo[1] = ['Aguascalientes 2', 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d118448.82888352242!2d-102.292787!3d21.914325!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8429ee53a7c9084d%3A0x5215710e872df9d3!2sArnulfo%20M.%20Vald%C3%A9z%20324%2C%20Centro%20Comercial%20Agropecuario%2C%2020135%20Aguascalientes%2C%20Ags.%2C%20M%C3%A9xico!5e0!3m2!1ses!2sus!4v1591408141730!5m2!1ses!2sus',
+    expendios_pollo[1] = ['Aguascalientes Norte 2', 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d118448.82888352242!2d-102.292787!3d21.914325!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8429ee53a7c9084d%3A0x5215710e872df9d3!2sArnulfo%20M.%20Vald%C3%A9z%20324%2C%20Centro%20Comercial%20Agropecuario%2C%2020135%20Aguascalientes%2C%20Ags.%2C%20M%C3%A9xico!5e0!3m2!1ses!2sus!4v1591408141730!5m2!1ses!2sus',
         'Norte 2: Centro Comercial Agropecuario Arnulo M. Valdéz No. 324',
         '(449) 914-11-08']
 
-    expendios_pollo[2] = ['Aguascalientes 3', 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d118475.64107418913!2d-102.273274!3d21.882063!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8429ee0dc058e779%3A0x1b45752725cc99e0!2sJuan%20Escutia%20302%2C%20H%C3%A9roes%2C%2020190%20Aguascalientes%2C%20Ags.%2C%20M%C3%A9xico!5e0!3m2!1ses!2sus!4v1591408175503!5m2!1ses!2sus',
+    expendios_pollo[2] = ['Aguascalientes Centro', 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d118475.64107418913!2d-102.273274!3d21.882063!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8429ee0dc058e779%3A0x1b45752725cc99e0!2sJuan%20Escutia%20302%2C%20H%C3%A9roes%2C%2020190%20Aguascalientes%2C%20Ags.%2C%20M%C3%A9xico!5e0!3m2!1ses!2sus!4v1591408175503!5m2!1ses!2sus',
         'Centro: Juan Escutia No. 302 Colonia Héroes',
         '(449) 910-64-95 | (449) 970-34-30']
 
-    expendios_pollo[3] = ['Aguascalientes 4', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3703.380964750631!2d-102.28199648506029!3d21.84283628556312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8429edbcffffff95%3A0xa342f078324d929a!2sSabropollo!5e0!3m2!1ses-419!2smx!4v1594239673078!5m2!1ses-419!2smx',
+    expendios_pollo[3] = ['Aguascalientes Sur', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3703.380964750631!2d-102.28199648506029!3d21.84283628556312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8429edbcffffff95%3A0xa342f078324d929a!2sSabropollo!5e0!3m2!1ses-419!2smx!4v1594257989623!5m2!1ses-419!2smx',
         'Sur: Julio Díaz Torre 104-A Ciudad Industrial C.P. 20290 Aguascalientes, Ags.',
         '(449) 910-64-95 | (449) 970-34-30']
 
@@ -23,7 +23,7 @@ if ($('#expendios_select').length > 0) {
         'Calle Mervcado de Abastos No. 5 y 6 Col. mercado de Abastos Zacatecas, ZAC. C.P. 98057',
         '(492) 924-69-30 | (492) 924-88-65']
 
-    expendios_pollo[5] = ['Irapuato', 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d119458.12749337217!2d-101.335012!3d20.666874000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7b8bfc2d8db05b06!2sSabroPollo%20CEDIS%20Irapuato!5e0!3m2!1ses!2sus!4v1591408252124!5m2!1ses!2sus',
+    expendios_pollo[5] = ['Irapuato', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.0664845071515!2d-101.33720058508034!3d20.666873986195448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842c8086fa09a1c9%3A0x7b8bfc2d8db05b06!2sSabroPollo%20CEDIS%20Irapuato!5e0!3m2!1ses-419!2smx!4v1594396762666!5m2!1ses-419!2smx',
         'Cerrada de las Ánimas No. 947-A Col. Guadalupe  C.P. 36580',
         '(462) 626 45 19 | (462) 626 45 21']
 
@@ -31,7 +31,7 @@ if ($('#expendios_select').length > 0) {
         'Margarita Maza de Juárez No. 116 Col. Felicitas del Río  C.P. 58040',
         '(443) 316 63 00 | (443) 316 75 66']
 
-    expendios_pollo[7] = ['Querétaro', 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d119537.59142075521!2d-100.269081!3d20.565596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d34291ae12ef19%3A0xad9af487b91bf995!2sAv.%20del%20Marques%2C%20Quer%C3%A9taro%2C%20M%C3%A9xico!5e0!3m2!1ses!2sus!4v1591408292651!5m2!1ses!2sus',
+    expendios_pollo[7] = ['Querétaro', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3735.4711339671767!2d-100.26805778508198!3d20.568808886249393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d3429935bd3d15%3A0x8e563e6ef3b0ad46!2sSabro%20Pollo!5e0!3m2!1ses-419!2smx!4v1594396528163!5m2!1ses-419!2smx',
         'Av. Del marqués No. 8-A C.P. 76246 Parque Industrial Bernardo Quintana',
         '(442) 212 16 59 | (442) 224 10 64']
 
