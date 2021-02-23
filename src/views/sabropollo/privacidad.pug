@@ -1,0 +1,33 @@
+extends layout/layout.pug
+block title
+    title Sabropollo | Privacidad
+
+block content
+
+    main(data-namesection="contacto")
+
+        include shared/header.pug
+
+        .privacidad 
+
+            .section_content.privacidad__content    
+                h1 avisos de privacidad
+
+                p A continuación, ponemos a su disposición los Avisos de Privacidad Integrales, así como la Solicitud, el Procedimiento y Requisitos para el Ejercicio de sus derechos ARCO o de Revocación del Consentimiento. Para cualquier duda o aclaración con respecto a lo anterior, favor de comunicarse a los teléfonos: (449) 9106470 ext. 1168 y/o al correo: datos.personales@sabro.com.mx
+
+                ol 
+                    li 
+                        a(href="http://www.sabro.com.mx/AvisPriv_Proveedores.pdf", target="_blank") AVISO DE PRIVACIDAD INTEGRAL PARA PROVEEDORES
+                    li 
+                        a(href="http://www.sabro.com.mx/AvisPriv_Integral.pdf", target="_blank") AVISO DE PRIVACIDAD INTEGRAL DE TRABAJADORES Y ASPIRANTES
+                    li 
+                        a(href="http://www.sabro.com.mx/AvisPriv_Clientes.pdf", target="_blank") AVISO DE PRIVACIDAD INTEGRAL PARA CLIENTES
+                    li 
+                        a(href="http://www.sabro.com.mx/SolicitudARCORevocaci%C3%B3nConsentimiento.pdf", target="_blank") SOLICITUD DE ACCESO, RECTIFICACIÓN, CANCELACIÓN, OPOSICIÓN O REVOCACIÓN DEL CONSENTIMIENTO
+                    li 
+                        a(href="http://www.sabro.com.mx/ProcedimientoRequisitosARCORevocaciondelConsentimiento.pdf", target="_blank") PROCEDIMIENTO Y REQUISITOS EJERCICIO ARCO Y REVOCACIÓN DEL CONSENTIMIENTO
+
+
+        include shared/footer.pug
+
+

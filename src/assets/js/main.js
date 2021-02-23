@@ -20,7 +20,7 @@ const initApp = () => {
     APP.isMobileDevice = isMobileDevice
 
     APP.Slideshow = new Slideshow()
-    APP.Ondita = new Ondita()
+    // APP.Ondita = new Ondita()
     APP.Menuselect = new Menuselect()
     APP.Recetas = new Recetas()
     APP.Scrollto = new Scrollto()

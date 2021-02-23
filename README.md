@@ -4,11 +4,27 @@
 
 ## Getting Started
 
+El front end del sitio esta construido con webpack, babel y scss. 
+
+Los ajustes al HTML se pueden hacer directamente en el backend. Pero para ajustar Javascript y CSS es necesario levantar el proyecto del front end con webpack dev server. (npm run start).
+
+Los ajustes del js se hacen en src/assets/js/...
+Los ajustes del css se hacen en src/assets/sass/...
+
+Para compilarlo solo hace falta correr (npm run build)
+
+
+La estructura de cada sub sitio esta dividida en src/views/... aliamsa, interpec, sabrohuevo, y sabropollo
+
+El css y js se comparte para todos. 
+
+
+DEVELOPMENT NOTES:
 These template uses pre processor pug to handle html files and sass for css. You can use modern JavaScript, arrow functions, classes, etc, since deployment will use Babel to ensure everything works in old browsers. Also deployment will inline javascript, html and css files. 
 
-Bootsrap is included so you can use grid system.
+*Bootsrap is included so you can use grid system.
 
-Greensock to handle all animations.
+*Greensock to handle all animations.
 
 To handle favicon you'll only need to include jpg or png file to src/assets/favicon/ and adjust name in "webpack.common" file
 
@@ -68,7 +84,7 @@ Not allowed
 
 ## Authors
 
-* **Fredy Rivas** - *Initial work* - [fredyrivas](http://fredyrivas.com/developer)
+* **Sabro** 
 
 
 ## License
@@ -77,4 +93,4 @@ All rights reserved.
 
 ## Acknowledgments
 
-* God & family.
+

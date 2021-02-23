@@ -89,6 +89,12 @@ module.exports = {
             template: './src/views/sabropollo/ventas.pug',
             chunks: ['sabro']
         }),
+        new HtmlWebpackPlugin({
+            filename: 'pollo/privacidad.html',
+            hash: false,
+            template: './src/views/sabropollo/privacidad.pug',
+            chunks: ['sabro']
+        }),
 
 
         /////////////////////////////////////////////////
